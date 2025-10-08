@@ -3,7 +3,7 @@ import sympy
 
 
 
-texto = input("Escreva a f(x), use x como a variavel, use '*' como simbolo de multiplicativo e '**' como potenciacao\n Para trigonometricas use os termos em ingles, como sin para seno\n")
+texto = input("Escreva a f(x), use x como a variavel, use '*' como simbolo de multiplicativo e '**' como potenciacao\nPara trigonometricas use os termos em ingles, como sin para seno\n")
 func = sympy.sympify(texto, locals={'e': sympy.E})
 X = sympy.Symbol("x")
 xi = float(input("Digite o valor de x inicial: \n"))
